@@ -1,0 +1,8 @@
+<p>hi there,</p>
+
+<% if @email.template.present? %>
+  <% body = render "email_body", email: @email %>
+  <%= @email.template.body.gsub('{{ placeholder }}', body) %>
+<% else %>
+  <%= render "email_body", email: @email %>
+<% end %>
