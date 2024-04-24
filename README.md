@@ -1,3 +1,13 @@
 # README
 
-L5 Assigmnet of [Practical Ruby on Rails Course](https://school.mixandgo.com/)
+## Screenshots
+
+![Dashboard](https://raw.githubusercontent.com/jacky-xbb/pics/main/uPic/uFORmF.png)
+
+
+## Setup
+```shell
+bundle install
+rails db:create db:migrate
+```
+
